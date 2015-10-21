@@ -1,0 +1,103 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+p{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  font-family: 'Tinos', serif;
+  font-size: 25px;
+
+}
+img{
+  margin-left: 500px;
+  margin-right: 0px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: none;
+  height: 228px;
+  width: 342px;
+}
+html{
+  background: black;
+  margin-bottom: 60px;
+}
+
+h1{
+  color:white;
+  font-size: 65px;
+  text-align: center;
+  padding: 100px;
+  font-family: 'Jura', sans-serif;
+}
+img{
+  animation: bounceIn 2s;
+}
+
+hr{
+  color: #F5F5F5;
+  width: 900px;
+  margin-bottom: 10px;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
